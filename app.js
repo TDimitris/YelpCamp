@@ -99,6 +99,8 @@ const styleSrcUrls = [
     "https://fonts.googleapis.com/",
     "https://use.fontawesome.com/",
     "https://cdn.maptiler.com/",
+    "https://cdn.jsdelivr.net/"
+    
 ];
 const connectSrcUrls = [
     //"https://api.mapbox.com/",
@@ -123,6 +125,7 @@ app.use(
                 "data:",
                 "https://res.cloudinary.com/dbzbbhhxa/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
                 "https://images.unsplash.com/",
+                "https://api.maptiler.com/"
             ],
             fontSrc: ["'self'", ...fontSrcUrls],
         },
